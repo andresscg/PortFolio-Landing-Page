@@ -205,7 +205,6 @@ header i {
   .showcase, .showcase header {
     padding: 30px;
   } 
-
   .text h2 {
     font-size: 2.2em;
   }
@@ -214,5 +213,14 @@ header i {
   }
   .text p {
     font-size: 15px;
+  }
+  .showcase.active {
+    right: 220px;
+  }
+  .menu {
+    width: 220px;
+  }
+  .menu ul li a {
+    font-size: 20px;
   }
 }
